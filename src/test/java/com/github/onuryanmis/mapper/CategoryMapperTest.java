@@ -15,7 +15,7 @@ class CategoryMapperTest {
 
         assertEquals(category.getId(), categoryDto.getId());
         assertEquals(category.getName(), categoryDto.getName());
-        assertEquals(category.getDescription(), "test");
+        assertEquals(category.getDescription(), categoryDto.getDescription());
     }
 
     @Test
